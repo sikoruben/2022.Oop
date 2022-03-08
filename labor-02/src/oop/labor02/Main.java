@@ -9,5 +9,6 @@ public class Main {
         if( !result ){
             System.out.println("you do not have ");
         }
+        System.out.println(account1.getAccountNumber()+": "+account1.getBalance());
     }
 }
